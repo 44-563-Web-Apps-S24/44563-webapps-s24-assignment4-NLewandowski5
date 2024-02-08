@@ -4,6 +4,7 @@
   <head>
 
     <title>Example Chekov Page</title>
+    <link rel="stylesheet" href="chekov.css">
 
   </head>
 
@@ -12,7 +13,7 @@
     <h1>Nolan Lewandowski does Chekov tonight</h1>
     <h3>Lines from The Anniversary - Anton Chekov</h3>
 
-    <p>THE ANNIVERSARY
+    <p class="speech">THE ANNIVERSARY
 
 
         CHARACTERS
@@ -29,53 +30,78 @@
         The action takes place at the Bank</p>
         
         
-        <p>[The private office of the Chairman of Directors. On the left is a door,
+        <p class="direction">[The private office of the Chairman of Directors. On the left is a door,
         leading into the public department. There are two desks. The furniture
         aims at a deliberately luxurious effect, with armchairs covered in
         velvet, flowers, statues, carpets, and a telephone. It is midday. KHIRIN
         is alone; he wears long felt boots, and is shouting through the door.]</p>
         
-        <h4>SHIPUCHIN.</h4> <p>[At the door, addresses the outer office]</p> <p>This present, my
+        <h4 class="shipuchin">SHIPUCHIN.</h4> <p class="direction">[At the door, addresses the outer office]</p> <p class="speech">This present, my
         dear colleagues, will be preserved to the day of my death, as a memory
         of the happiest days of my life! Yes, gentlemen! Once more, I thank you!</p>
-        <p>[Throws a kiss into the air and turns to KHIRIN]</p> <p>My dear, my respected
+        <p class="direction">[Throws a kiss into the air and turns to KHIRIN]</p> <p class="speech">My dear, my respected
         Kusma Nicolaievitch!</p>
         
-        <p>[All the time that SHIPUCHIN is on the stage, clerks intermittently come
+        <p class="direction">[All the time that SHIPUCHIN is on the stage, clerks intermittently come
         in with papers for his signature and go out.]</p>
         
-        <h4>KHIRIN.</h4> <p>[Standing up]</p> <p>I have the honour to congratulate you, Andrey
+        <h4 class="khirin">KHIRIN.</h4> <p class="direction">[Standing up]</p> <p class="speech">I have the honour to congratulate you, Andrey
         Andreyevitch, on the fiftieth anniversary of our Bank, and hope that...</p>
         
-        <h4>SHIPUCHIN.</h4> <p>[Warmly shakes hands]</p> <p>Thank you, my dear sir! Thank you!
+        <h4 class="shipuchin">SHIPUCHIN.</h4> <p class="direction">[Warmly shakes hands]</p> <p class="speech">Thank you, my dear sir! Thank you!
         I think that in view of the unique character of the day, as it is an
-        anniversary, we may kiss each other!... </p><p>[They kiss]</p> <p>I am very, very
+        anniversary, we may kiss each other!... </p><p class="direction">[They kiss]</p> <p class="speech">I am very, very
         glad! Thank you for your service... for everything! If, in the course of
         the time during which I have had the honour to be Chairman of this Bank
         anything useful has been done, the credit is due, more than to anybody
-        else, to my colleagues.</p> <p>[Sighs]</p> <p>Yes, fifteen years! Fifteen years as my
-        name's Shipuchin!</p> <p>[Changes his tone]</p> <p>Where's my report? Is it getting
+        else, to my colleagues.</p> <p class="direction">[Sighs]</p> <p class="speech">Yes, fifteen years! Fifteen years as my
+        name's Shipuchin!</p> <p class="direction">[Changes his tone]</p> <p class="speech">Where's my report? Is it getting
         on?</p>
         
-        <h4>KHIRIN.</h4> <p>Yes; there's only five pages left.</p>
+        <h4 class="khirin">KHIRIN.</h4> <p class="speech">Yes; there's only five pages left.</p>
         
-        <h4>SHIPUCHIN.</h4> <p>Excellent. Then it will be ready by three?</p>
+        <h4 class="shipuchin">SHIPUCHIN.</h4> <p class="speech">Excellent. Then it will be ready by three?</p>
         
-        <h4>KHIRIN.</h4> <p>If nothing occurs to disturb me, I'll get it done. Nothing of
+        <h4 class="khirin">KHIRIN.</h4> <p class="speech">If nothing occurs to disturb me, I'll get it done. Nothing of
         any importance is now left.</p>
         
-        <h4>SHIPUCHIN.</h4> <p>Splendid. Splendid, as my name's Shipuchin! The general
+        <h4 class="shipuchin">SHIPUCHIN.</h4> <p class="speech">Splendid. Splendid, as my name's Shipuchin! The general
         meeting will be at four. If you please, my dear fellow. Give me the
-        first half, I'll peruse it.... Quick....</p> <p>[Takes the report]</p> <p>I base
+        first half, I'll peruse it.... Quick....</p> <p class="direction">[Takes the report]</p> <p class="speech">I base
         enormous hopes on this report. It's my _profession de foi_, or, better
-        still, my firework.</p> <p>[Note: The actual word employed.]</p> <p>My firework, as my
-        name's Shipuchin!</p> <p>[Sits and reads the report to himself]</p> <p>I'm hellishly
+        still, my firework.</p> <p class="direction">[Note: The actual word employed.]</p> <p class="speech">My firework, as my
+        name's Shipuchin!</p> <p class="direction">[Sits and reads the report to himself]</p> <p class="speech">I'm hellishly
         tired.... My gout kept on giving me trouble last night, all the morning
         I was running about, and then these excitements, ovations, agitations...
         I'm tired!</p>
         
-        <h4>KHIRIN.</h4> <p>Two... nought... nought... three... nine... two... nought. I
+        <h4  class="khirin">KHIRIN.</h4> <p class="speech">Two... nought... nought... three... nine... two... nought. I
         can't see straight after all these figures.... Three... one... six...
-        four... one... five....</p> <p>[Uses the counting-frame.]</p>
+        four... one... five....</p> <p class="direction">[Uses the counting-frame.]</p>
+
+        <h2>Table of Characters</h2>
+  <table class="char-table">
+    <thead>
+      <tr>
+        <th>Character</th>
+        <th>Actor</th>
+        <th>Understudy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Meech</td>
+        <td>Tom Hanks</td>
+        <td>Khirin</td>
+      </tr>
+      <tr>
+        <td>Claire</td>
+        <td>Jennifer Lawrence</td>
+        <td>Shipuchin</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a href="winter.html">Go to Second Page</a>
 
   </body>
